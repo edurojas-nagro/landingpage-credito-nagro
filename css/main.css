@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Roboto:wght@300&family=Ubuntu:wght@400;700&display=swap");
+
+.logonagro {
+  width: 320px;
+}
+
+.produtor {
+  height: 94vh;
+  width: 100%;
+  background-image: url("../assets/img/produtorbg.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.content-produtor {
+  width: 40%;
+  position: relative;
+  top: 15%;
+  left: 11%;
+  display: flex;
+  height: 75px !important;
+}
+
+.content-produtor:nth-child(2) {
+  top: 35%;
+  width: 50%;
+}
+
+.credito {
+  background-color: #a0ef01;
+  color: #1665ba;
+  font-size: 70px;
+  font-weight: bold;
+  padding: 0 10px;
+  line-height: 1;
+  height: 75px !important;
+}
+
+.pprod {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 40px;
+  line-height: 1;
+}
+
+.checkbox div {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox img {
+  width: 50px;
+}
+
+.checkbox span {
+  font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.img48 {
+  width: 100px !important;
+  display: block;
+}
+
+.ext {
+  width: 30%;
+  line-height: 1;
+  font-size: 30px !important;
+}
+
+.btnLink{
+  position: absolute;
+  background-color: #023047;
+  border: 2px solid #A0EF00;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  text-decoration: none !important;
+  top: 95%;
+  left: 45%;
+}
+
+.btnLink:hover{
+  color: white !important;
+}
+
+@media (max-width: 800px) {
+  .logonagro {
+    width: 200px;
+  }
+
+  .produtor {
+    padding-top: 20px;
+    height: 520px !important;
+  }
+  .content-produtor {
+    width: 40%;
+    position: relative;
+    top: 7%;
+    left: 3%;
+    display: flex;
+    height: 100px !important;
+  }
+
+  .content-produtor:nth-child(2) {
+    top: 10%;
+    width: 66%;
+  }
+
+  .credito {
+    font-size: 40px;
+    height: 45px !important;
+  }
+
+  .pprod {
+    font-size: 23px;
+    margin-top: -45px;
+  }
+
+  .checkbox img {
+    width: 30px;
+  }
+  .checkbox span {
+    font-size: 26px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+
+  .ext {
+    width: 40%;
+    font-size: 22px !important;
+    margin-left: -25px !important;
+  }
+  .img48 {
+    width: 60px !important;
+  }
+
+  .btnLink{
+    top: 55%;
+    left: 30%;
+    font-size: 17px;
+  }
+}
