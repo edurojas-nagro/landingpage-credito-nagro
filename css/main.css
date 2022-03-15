@@ -1,14 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Roboto:wght@300&family=Ubuntu:wght@400;700&display=swap");
-
-*{
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@300;400;600&family=Roboto:wght@300&family=Ubuntu:wght@400;700&display=swap");
+* {
   padding: 0;
   margin: 0;
 }
-.logonagro{ width: 330px; margin: auto auto; display: block;}
+.logonagro {
+  width: 330px;
+  margin: auto auto;
+  display: block;
+}
 
-
-#produtor{
-  background-image: url('../assets/img/produtorbg.webp');
+#produtor {
+  background-image: url("../assets/img/produtorbg.webp");
   background-position-x: 50%;
   background-position-y: 50%;
   background-repeat: no-repeat;
@@ -18,26 +21,26 @@
   padding: 70px 30px;
 }
 
-.content-produtor{
+.content-produtor {
   width: 40%;
   height: 100%;
   padding-left: 150px;
 }
 
-.content-produtor div:nth-child(1){
+.content-produtor div:nth-child(1) {
   height: 10%;
 }
 
-.content-produtor .linhas:nth-child(2){
+.content-produtor .linhas:nth-child(2) {
   margin-top: 70px;
 }
 
-.content-produtor .linhas:nth-child(3){
+.content-produtor .linhas:nth-child(3) {
   margin-top: 50px;
   padding-left: 33px;
 }
 
-.credito{
+.credito {
   background-color: #a0ef01;
   color: #1665ba;
   font-size: 70px;
@@ -47,7 +50,7 @@
   font-family: "Ubuntu", sans-serif;
 }
 
-.pprodutor{
+.pprodutor {
   font-size: 40px;
   line-height: 1;
   color: white;
@@ -55,16 +58,16 @@
   margin-left: 5px;
 }
 
-.checkBox{
+.checkBox {
   display: flex;
   align-items: center;
 }
 
-.checkBox img{
+.checkBox img {
   width: 40px;
 }
 
-.checkBox span{
+.checkBox span {
   font-size: 36px;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
@@ -72,25 +75,25 @@
   color: white;
 }
 
-.dinheiroConta{
+.dinheiroConta {
   width: 40%;
   line-height: 1;
   font-size: 30px !important;
   font-family: "Ubuntu", sans-serif;
   color: white;
 }
-.img48{
+.img48 {
   display: block;
 }
-.areabtn{
+.areabtn {
   margin: 80px auto 20px auto;
   text-align: center;
 }
-.btn{
+.btn {
   font-weight: 700;
-  letter-spacing: 1px!important;
+  letter-spacing: 1px !important;
   background-color: #023047;
-  border: 2px solid #A0EF00;
+  border: 2px solid #a0ef00;
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 22px;
@@ -98,55 +101,88 @@
   padding: 5px 15px;
   border-radius: 15px;
 }
-@media(max-width: 1050px){
+
+.titledepo {
+  color: #4a4a4a;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 32px;
+  padding: 15px 0;
+  line-height: 1;
+}
+
+.depoimentos{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+.depoimentos img{
+  width: calc(90% / 3);
+  height: 100%;
+}
+
+@media (max-width: 1050px) {
   #produtor {
     padding: 10px;
   }
 }
 
-@media(max-width:  800px){
-  .logonagro{ width: 220px; }
+@media (max-width: 800px) {
+  .logonagro {
+    width: 220px;
+  }
 
-  #produtor{
+  #produtor {
     padding: 20px;
     min-height: 460px;
   }
-  .content-produtor{
+  .content-produtor {
     width: 60%;
     height: 100%;
     padding-left: 15px;
   }
 
-  .credito{
+  .credito {
     font-size: 40px;
   }
 
-  .pprodutor{
+  .pprodutor {
     font-size: 20px;
   }
 
-  .checkBox img{
+  .checkBox img {
     width: 30px;
   }
 
-  .checkBox span{
+  .checkBox span {
     font-size: 19px;
   }
 
-  .dinheiroConta{
+  .dinheiroConta {
     width: 50%;
     font-size: 22px !important;
   }
-  .img48{
+  .img48 {
     width: 60px;
+  }
+
+  .depoimentos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .depoimentos img{
+    width: calc(90% / 1);
+    display: block;
+    margin: auto auto;
   }
 }
 
 /* flexBox */
-.d-flex{
+.d-flex {
   display: flex;
 }
 
-.alinharCenter{
+.alinharCenter {
   align-items: center;
 }
