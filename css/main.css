@@ -134,17 +134,13 @@
   }
 
   .dinheiroConta{
-    width: 60%;
+    width: 50%;
     font-size: 22px !important;
   }
   .img48{
     width: 60px;
   }
 }
-
-
-
-
 
 /* flexBox */
 .d-flex{
