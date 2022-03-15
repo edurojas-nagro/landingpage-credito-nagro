@@ -84,7 +84,9 @@
 }
 .img48 {
   display: block;
+  width: 100px;
 }
+
 .areabtn {
   margin: 80px auto 20px auto;
   text-align: center;
@@ -163,7 +165,7 @@
     font-size: 22px !important;
   }
   .img48 {
-    width: 60px;
+    max-width: 100%;
   }
 
   .depoimentos{
