@@ -1,156 +1,156 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Roboto:wght@300&family=Ubuntu:wght@400;700&display=swap");
 
-.logonagro {
-  width: 320px;
+*{
+  padding: 0;
+  margin: 0;
 }
+.logonagro{ width: 330px; margin: auto auto; display: block;}
 
-.produtor {
-  height: 94vh;
-  width: 100%;
-  background-image: url("../assets/img/produtorbg.webp");
-  background-position: center;
+
+#produtor{
+  background-image: url('../assets/img/produtorbg.webp');
+  background-position-x: 50%;
+  background-position-y: 50%;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;
+  min-height: 440px;
+  padding: 70px 30px;
 }
 
-.content-produtor {
+.content-produtor{
   width: 40%;
-  position: relative;
-  top: 15%;
-  left: 11%;
-  display: flex;
-  height: 75px !important;
+  height: 100%;
+  padding-left: 150px;
 }
 
-.content-produtor:nth-child(2) {
-  top: 35%;
-  width: 50%;
+.content-produtor div:nth-child(1){
+  height: 10%;
 }
 
-.credito {
+.content-produtor .linhas:nth-child(2){
+  margin-top: 70px;
+}
+
+.content-produtor .linhas:nth-child(3){
+  margin-top: 50px;
+  padding-left: 33px;
+}
+
+.credito{
   background-color: #a0ef01;
   color: #1665ba;
   font-size: 70px;
-  font-weight: 700;
+  font-weight: bold;
   padding: 0 10px;
   line-height: 1;
-  height: 75px !important;
+  font-family: "Ubuntu", sans-serif;
 }
 
-.pprod {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.pprodutor{
   font-size: 40px;
   line-height: 1;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  margin-left: 5px;
 }
 
-.pprod span b{
-  font-size: 700;
-}
-
-.checkbox div {
+.checkBox{
   display: flex;
   align-items: center;
 }
 
-.checkbox img {
-  width: 50px;
+.checkBox img{
+  width: 40px;
 }
 
-.checkbox span {
+.checkBox span{
   font-size: 36px;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   margin-left: 5px;
+  color: white;
 }
 
-.img48 {
-  width: 100px !important;
-  display: block;
-}
-
-.ext {
-  width: 30%;
+.dinheiroConta{
+  width: 40%;
   line-height: 1;
   font-size: 30px !important;
+  font-family: "Ubuntu", sans-serif;
+  color: white;
 }
-
-.btnLink{
-  position: absolute;
+.img48{
+  display: block;
+}
+.areabtn{
+  margin: 80px auto 20px auto;
+  text-align: center;
+}
+.btn{
+  font-weight: 700;
+  letter-spacing: 1px!important;
   background-color: #023047;
   border: 2px solid #A0EF00;
   color: white;
-  padding: 5px 15px;
-  border-radius: 10px;
-  font-weight: 700;
   font-family: "Roboto", sans-serif;
   font-size: 22px;
   text-decoration: none !important;
-  top: 95%;
-  left: 45%;
+  padding: 5px 15px;
+  border-radius: 15px;
+}
+@media(max-width: 1050px){
+  #produtor {
+    padding: 10px;
+  }
 }
 
-.btnLink:hover{
-  color: white !important;
-}
+@media(max-width:  800px){
+  .logonagro{ width: 220px; }
 
-@media (max-width: 800px) {
-  .logonagro {
-    width: 200px;
+  #produtor{
+    padding: 20px;
+    min-height: 460px;
+  }
+  .content-produtor{
+    width: 60%;
+    height: 100%;
+    padding-left: 15px;
   }
 
-  .produtor {
-    padding-top: 20px;
-    height: 550px !important;
-  }
-  .content-produtor {
-    width: 40%;
-    position: relative;
-    top: 7%;
-    left: 3%;
-    display: flex;
-    height: 100px !important;
-  }
-
-  .content-produtor:nth-child(2) {
-    top: 10%;
-    width: 66%;
-  }
-
-  .credito {
+  .credito{
     font-size: 40px;
-    height: 45px !important;
   }
 
-  .pprod {
-    font-size: 23px;
-    margin-top: -45px;
+  .pprodutor{
+    font-size: 20px;
   }
 
-  .checkbox img {
-    width: 20px;
-  }
-  .checkbox span {
-    font-size: 18px;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    margin-left: 5px;
+  .checkBox img{
+    width: 30px;
   }
 
-  .ext {
-    width: 40%;
-    font-size: 18px !important;
-    margin-left: -25px !important;
-  }
-  .img48 {
-    width: 60px !important;
+  .checkBox span{
+    font-size: 19px;
   }
 
-  .btnLink{
-    top: 68%;
-    left: 28%;
-    font-size: 15px;
+  .dinheiroConta{
+    width: 60%;
+    font-size: 22px !important;
   }
+  .img48{
+    width: 60px;
+  }
+}
+
+
+
+
+
+/* flexBox */
+.d-flex{
+  display: flex;
+}
+
+.alinharCenter{
+  align-items: center;
 }
