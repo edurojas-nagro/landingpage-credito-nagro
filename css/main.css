@@ -11,8 +11,8 @@
   display: block;
 }
 
-section{
-  padding: 40px 50px;
+section {
+  padding: 80px 50px;
 }
 
 #produtor {
@@ -86,7 +86,7 @@ section{
   font-family: "Ubuntu", sans-serif;
   color: white;
 }
-.img48 {
+.iconone {
   display: block;
   width: 100px;
 }
@@ -113,7 +113,7 @@ section{
   text-align: center;
   font-family: "Lato", sans-serif;
   font-size: 32px;
-  margin-top: 40px;
+  margin: 20px 0;
   line-height: 1;
 }
 
@@ -164,10 +164,10 @@ section{
   font-weight: 700;
 }
 
-.text-white{
+.text-white {
   display: block;
   text-align: center;
-  font-family: "Nunito",sans-serif!important;
+  font-family: "Nunito", sans-serif !important;
   color: white;
   line-height: 1;
   font-weight: 600;
@@ -175,12 +175,95 @@ section{
   margin-top: 50px;
 }
 
-#sec4 h2{
+#sec4 h2 {
   text-align: center;
-  font-family: "Ubuntu",sans-serif;
-  color: #0065c3!important;
+  font-family: "Ubuntu", sans-serif;
+  color: #0065c3 !important;
   font-size: 28px;
   font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.icones {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  margin-bottom: 60px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 111px;
+}
+
+.card img {
+  max-height: 100%;
+}
+
+.card span {
+  display: block;
+  padding-top: 10px;
+  font-family: "Ubuntu";
+}
+
+#sec5 {
+  background-color: #ededed;
+  display: flex;
+}
+
+#sec5 div {
+  width: 50%;
+  padding: 45px;
+}
+
+#sec5 div img {
+  width: 50%;
+  margin: auto auto;
+  display: block;
+}
+
+#sec5 div h2 {
+  font-family: arial;
+  color: #023047 !important;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: left;
+  width: 550px;
+  padding-top: 5px;
+}
+
+#sec5 div p {
+  font-family: "Ubuntu", sans-serif;
+  color: #4a4a4a !important;
+  font-size: 16px;
+  font-weight: 700;
+  width: 440px;
+  margin-top: 40px;
+}
+
+#timeline {
+  display: block;
+  width: 400px;
+  height: 50%;
+  margin: 35px 0 !important;
+}
+
+.btn2 {
+  color: #fff !important;
+  font-size: 15px !important;
+  font-family: "Nunito" !important;
+  font-weight: 700;
+  letter-spacing: 1px !important;
+  /* height : 50px; */
+  background-color: rgb(2, 48, 71);
+  border-color: rgb(2, 48, 71);
+  width: 250px;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-left: 11px;
 }
 
 @media (max-width: 1050px) {
@@ -190,9 +273,8 @@ section{
 }
 
 @media (max-width: 800px) {
-
-  section{
-    padding: 20px 15px;
+  section {
+    padding: 40px 15px !important;
   }
 
   .logonagro {
@@ -228,7 +310,7 @@ section{
     width: 50%;
     font-size: 22px !important;
   }
-  .img48 {
+  .iconone {
     max-width: 100%;
   }
 
@@ -261,6 +343,40 @@ section{
     padding: 10px 20px;
     width: 95%;
     font-family: "Ubuntu", sans-serif;
+  }
+
+  .icones {
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+
+  #sec4 {
+    padding-bottom: 70px !important;
+  }
+
+  #sec4 h2 {
+    font-size: 20px;
+  }
+
+  .card {
+    align-items: center;
+    justify-content: start;
+    height: 100px;
+    width: 60%;
+    margin: 10px auto;
+  }
+
+  .card img {
+    max-height: 110%;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 95px;
+  }
+
+  .card span {
+    display: block;
+    padding-top: 10px;
+    font-family: "Ubuntu";
   }
 }
 
