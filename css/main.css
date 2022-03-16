@@ -15,6 +15,19 @@ section {
   padding: 80px 50px;
 }
 
+/* flexBox */
+.d-flex {
+  display: flex;
+}
+
+.alinharCenter {
+  align-items: center;
+}
+
+.alingCenter {
+  flex-direction: column;
+}
+
 #produtor {
   background-image: url("../assets/img/produtorbg.webp");
   background-position-x: 50%;
@@ -40,10 +53,12 @@ section {
 }
 
 .content-produtor .linhas:nth-child(3) {
-  margin-top: 50px;
   padding-left: 33px;
 }
 
+.content-produtor .linhas:nth-child(3), .text-white{
+  margin-top: 50px;
+}
 .credito {
   background-color: #a0ef01;
   color: #1665ba;
@@ -60,11 +75,6 @@ section {
   color: white;
   font-family: "Ubuntu", sans-serif;
   margin-left: 5px;
-}
-
-.checkBox {
-  display: flex;
-  align-items: center;
 }
 
 .checkBox img {
@@ -119,18 +129,17 @@ section {
 
 .depoimentos {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .depoimentos img {
   width: calc(90% / 3);
-  height: 100%;
+  max-height: 100%;
 }
 
 #emprestimo {
   background-image: url("../assets/img/bgIcon.webp");
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -172,7 +181,6 @@ section {
   line-height: 1;
   font-weight: 600;
   font-size: 20px;
-  margin-top: 50px;
 }
 
 #sec4 h2 {
@@ -193,8 +201,8 @@ section {
 
 .card {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   height: 111px;
 }
 
@@ -346,7 +354,6 @@ section {
   }
 
   .icones {
-    flex-direction: column;
     margin-bottom: 0px;
   }
 
@@ -380,11 +387,3 @@ section {
   }
 }
 
-/* flexBox */
-.d-flex {
-  display: flex;
-}
-
-.alinharCenter {
-  align-items: center;
-}
