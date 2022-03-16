@@ -1,13 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Roboto:wght@300&family=Ubuntu:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@300;400;600&family=Roboto:wght@300&family=Ubuntu:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@300;400;600&family=Nunito:wght@400;500;600;700&family=Roboto:wght@300&family=Ubuntu:wght@400;700&display=swap");
+
 * {
   padding: 0;
   margin: 0;
 }
+
 .logonagro {
   width: 330px;
   margin: auto auto;
   display: block;
+}
+
+section{
+  padding: 40px 50px;
 }
 
 #produtor {
@@ -18,7 +23,6 @@
   background-size: cover;
   background-attachment: scroll;
   min-height: 440px;
-  padding: 70px 30px;
 }
 
 .content-produtor {
@@ -116,8 +120,8 @@
 .depoimentos {
   display: flex;
   justify-content: space-around;
-  padding: 30px 100px;
 }
+
 .depoimentos img {
   width: calc(90% / 3);
   height: 100%;
@@ -125,7 +129,6 @@
 
 #emprestimo {
   background-image: url("../assets/img/bgIcon.webp");
-  padding: 50px 150px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -145,7 +148,7 @@
   font-size: 22px;
 }
 
-#emprestimo p{
+#emprestimo p {
   color: #a0ef00;
   font-family: "Ubuntu", sans-serif;
   font-size: 90px;
@@ -155,18 +158,29 @@
   line-height: 0.6;
 }
 
-#emprestimo>p>span{
+#emprestimo > p > span {
   font-size: 50px;
-  font-family: "Ubuntu"!important;
+  font-family: "Ubuntu" !important;
   font-weight: 700;
 }
 
 .text-white{
-  font-size: 20px !important;
-  font-family: "Roboto", sans-serif !important;
-  color: white !important;
-  line-height: 1 !important;
-  font-weight: 600 !important;
+  display: block;
+  text-align: center;
+  font-family: "Nunito",sans-serif!important;
+  color: white;
+  line-height: 1;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+#sec4 h2{
+  text-align: center;
+  font-family: "Ubuntu",sans-serif;
+  color: #0065c3!important;
+  font-size: 28px;
+  font-weight: 700;
 }
 
 @media (max-width: 1050px) {
@@ -176,12 +190,16 @@
 }
 
 @media (max-width: 800px) {
+
+  section{
+    padding: 20px 15px;
+  }
+
   .logonagro {
     width: 220px;
   }
 
   #produtor {
-    padding: 20px;
     min-height: 460px;
   }
   .content-produtor {
@@ -226,11 +244,8 @@
     margin: auto auto;
   }
 
-  #emprestimo{
-    padding: 5px 15px;
-  }
-
-  #emprestimo p, #emprestimo span{
+  #emprestimo p,
+  #emprestimo span {
     font-size: 33px !important;
     margin-bottom: 55px;
     line-height: 1;
@@ -247,7 +262,6 @@
     width: 95%;
     font-family: "Ubuntu", sans-serif;
   }
-
 }
 
 /* flexBox */
