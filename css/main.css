@@ -282,7 +282,7 @@ section {
   }
 
   .logonagro {
-    width: 220px;
+    max-width: 50%;
   }
 
   #produtor {
@@ -311,11 +311,13 @@ section {
   }
 
   .dinheiroConta {
-    width: 50%;
-    font-size: 22px !important;
+    width: 70%;
+    font-size: 20px !important;
+    margin-left: -30px;
   }
   .iconone {
-    max-width: 100%;
+    width: 70px !important;
+    height: 70px !important;
   }
 
   .depoimentos {
